@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="rock.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="heading">Rock Paper Scissors</h1>
+      <h4 class="heading">with Artificial Intellegence</h4>
+
+      <div class="container">
+        <div class="game">
+          <div class="images">
+            <div class="image" id="rock">
+              <img src="https://res.cloudinary.com/dgccnrp7w/image/upload/v1719389726/rock_image_zdqrtn.png" />
+              <div class="description">
+                <p>Rock</p>
+                </div>
+            </div>
+            <div class="image" id="paper">
+              <img src="https://res.cloudinary.com/dgccnrp7w/image/upload/v1719389746/paper_image_fr3fbo.png" />
+             
+            <div class="description"> 
+                <p>Paper</p>
+            </div>
+            </div>
+            <div class="image" id="scissors">
+              <img src="https://res.cloudinary.com/dgccnrp7w/image/upload/v1719389726/scissors_image_dq9nim.png" />
+              
+              <div class="description">
+                <p>Scissors</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="score-board">
+            <div class="score">
+              <p id="human_score">0</p>
+              <p>you</p>
+            </div>
+            <div class="score">
+                <p id="AI_score">0</p>
+                <p>AI</p>
+              </div>
+          </div>
+         <div class="msg-container">
+            <p id="msg">Play your move!</p>
+         </div>
+         <div class="reset"><button>Reset</button></div>
+    </main>
+    <script src="rock.js"></script>
+  </body>
+</html>
